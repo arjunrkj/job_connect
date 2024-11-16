@@ -184,13 +184,13 @@ while($record=$result->fetch_assoc())
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-content">
                     <h1>Your Perfect Candidate Awaits</h1>
-                    <p>Find the right talent easily!</p>
+                    <p>Find the Right Talent For Your Company</p>
                     <div class="col-lg-10 col-lg-push-1">
-                        <form action="candidate-list.php" method="get">
+                        <form action="job-list.php" method="get">
                             <div class="form-group">
                                 <div class="col-lg-8">
                                     <div class="row">
-                                        <input type="text" class="form-control" name="search" placeholder="Looking for a Candidate" style="border:none; border-radius: 10px 0px 0px 10px;"/>
+                                        <input type="text" class="form-control" name="search" placeholder="Search by Skills/Experience" style="border:none; border-radius: 10px 0px 0px 10px;"/>
                                     </div>
                                 </div>
                             </div>
@@ -224,7 +224,7 @@ while($record=$result->fetch_assoc())
 <section class="category">
 <div class="container">
 <div class="row">
-<h1>Find Canditates by category</h1>
+<h1>Find jobs by category</h1>
 <div class="col-lg-4 category-content">
 <span class="glyphicon glyphicon-briefcase"></span><br />
 <a href="job-list.php?search=software">Software</a>

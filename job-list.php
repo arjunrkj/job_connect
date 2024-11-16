@@ -1,6 +1,7 @@
 
 <body>
 <?php
+session_start();
 include_once 'config.php';
 include_once 'header.php';
 ?>
@@ -34,7 +35,7 @@ $page="view-details.php?job_id=".$record['job_id'];
 <td><?php echo $record['employer']; ?></td>
 <td><?php $date=date_create($record['posted']); echo date_format($date,"d.m.y");?></td>
 <td>
-<a href="apply.php">Apply Now</a>
+<a href="apply.php?job_id=<?php echo $record['job_id']; ?>">Apply
 </td>
 
 </tr>
