@@ -34,7 +34,7 @@ if ($result->num_rows > 0) {
         echo "<td>$job_title</td>";
         echo "<td>
                 <a href='delete_job.php?job_id=$job_id' onclick='return confirm(\"Are you sure you want to delete this job posting?\");'>Delete</a> | 
-                <a href='view_applied_candidates.php?job_id=$job_id'>View Applied Candidates</a>
+                <a href='applied_candidates_view.php?job_id=$job_id'>View Applied Candidates</a>
               </td>";
         echo "</tr>";
     }
