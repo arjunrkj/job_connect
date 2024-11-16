@@ -23,11 +23,11 @@ include_once 'config.php';
 <div class="row">
 <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12 admin-menu-list">
 <ul>
-<li><a onclick=load("user-apply.php")>Apply Now</a></li>
-<li><a onclick=load("user-view.php")>View Posted Jobs</a></li>
-<li><a onclick=load("user-employer.php">View Employers</a></li>
-<li><a onclick=load"resume.php">Update Resume</a></li>
-<li><a onclick=load("upload-job.php">View Messages</a></li>
+<li><a href="user-apply.php">Apply Now</a></li>
+<li><a href="user-view.php">View Posted Jobs</a></li>
+<li><a href="job-list.php">View Jobs</a></li>
+<li><a href="resume.php">Update Resume</a></li>
+<li><a href="upload-job.php">Upload Job</a></li>
 </ul>
 </div>
 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 dashboard" id="demo">
